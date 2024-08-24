@@ -1,8 +1,9 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+
 
 
 def dataProcessor(df1):
+    import pandas as pd
+    import matplotlib.pyplot as plt
     print("Here is how our original Dataset looks - ")
     print('\n')
     print(df1)
@@ -25,6 +26,8 @@ def dataProcessor(df1):
 
 
 def createScatterPlot(df1):
+    import pandas as pd
+    import matplotlib.pyplot as plt
     plt.scatter(df1['Total Living Cost Index'], df1['Total Food Cost Index'], c ="blue")
 
     plt.xlabel("X Axis")
@@ -43,17 +46,18 @@ def createScatterPlot(df1):
     plt.show()
 
 
+def main():
+    import pandas as pd
+    
+    df1 = pd.read_csv("Cost_of_Living_Index_by_Country_2024.csv")
 
-df1 = pd.read_csv("Cost_of_Living_Index_by_Country_2024.csv")
+    print('\n\n\n')
 
-print('\n\n\n')
+    df1 = dataProcessor(df1)
 
-df1 = dataProcessor(df1)
+    createScatterPlot(df1)
 
-createScatterPlot(df1)
+if __name__ == "__main__":
+    main()
 
- 
-
-
-print("hiiii")
 
