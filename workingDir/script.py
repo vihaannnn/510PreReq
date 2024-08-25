@@ -25,7 +25,7 @@ def dataProcessor(df1):
     return df1
 
 
-def createScatterPlot(df1):
+def createScatterPlot(df1, name):
     import pandas as pd
     import matplotlib.pyplot as plt
 
@@ -47,7 +47,7 @@ def createScatterPlot(df1):
 
     # plt.show()
     
-    plt.savefig('Cost_Index_Analysis.png')
+    plt.savefig(name)
 
 
 def main():
@@ -59,7 +59,7 @@ def main():
 
     df1 = dataProcessor(df1)
 
-    createScatterPlot(df1)
+    createScatterPlot(df1, 'Cost_Index_Analysis.png')
 
 if __name__ == "__main__":
     main()
