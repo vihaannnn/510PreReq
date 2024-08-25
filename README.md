@@ -38,7 +38,15 @@ A single person's estimated monthly costs are $1,640.90 without rent.
 ## Prerequisites
 This project requires the use of a Python virtual environment to manage dependencies and ensure consistent behavior across different systems. This guide provides step-by-step instructions for setting up a virtual environment on both Windows and Mac, as well as installing dependencies via a `requirements.txt` file.
 - Python 3.x installed on your system.
+- Git installed on your machine
 - Basic knowledge of command-line operations.
+
+## Cloning the Project
+- Open the Command Shell or Terminal on your machine and execute the following command
+   ```sh
+   git clone https://github.com/vihaannnn/510PreReq.git
+   ```
+
 
 ## Setting Up a Virtual Environment
 
