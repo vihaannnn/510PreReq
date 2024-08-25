@@ -28,6 +28,8 @@ def dataProcessor(df1):
 def createScatterPlot(df1):
     import pandas as pd
     import matplotlib.pyplot as plt
+
+    plt.figure(figsize = (10,10))
     plt.scatter(df1['Total Living Cost Index'], df1['Total Food Cost Index'], c ="blue")
 
     plt.xlabel("X Axis")
@@ -43,7 +45,9 @@ def createScatterPlot(df1):
     txt="This graph describes 3 different values, IN RED - Local Purchasing Power Index (x-axis) vs. Total Food Cost Index (y-axis), IN GREEN - Local Purchasing Power Index (x-axis) vs. Total Living Cost Index (y-axis), and IN BLUE - Total Living Cost Index (x-axis) vs. Total Food Cost Index (y-axis)"
     plt.figtext(0.5, 0.01, txt, wrap=True, horizontalalignment='center', fontsize=12)
 
-    plt.show()
+    # plt.show()
+    
+    plt.savefig('Cost_Index_Analysis.png')
 
 
 def main():
