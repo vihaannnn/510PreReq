@@ -6,6 +6,10 @@ def dataProcessor(df1, name):
     """
     import pandas as pd
     import matplotlib.pyplot as plt
+    import os
+
+    if os.path.exists(name):
+        os.remove(name)
     print("Here is how our original Dataset looks - ")
     print('\n')
     print(df1)
@@ -34,6 +38,10 @@ def createScatterPlot(df1, name):
     """
     import pandas as pd
     import matplotlib.pyplot as plt
+    import os
+
+    if os.path.exists(name):
+        os.remove(name)
 
     plt.figure(figsize = (10,10))
     plt.scatter(df1['Total Living Cost Index'], df1['Total Food Cost Index'], c ="blue")
