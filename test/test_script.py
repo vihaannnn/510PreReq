@@ -1,4 +1,4 @@
-from workingDir.script import dataProcessor
+from workingDir.script import dataProcessor, createScatterPlot
 import pandas as pd
 import pytest
 
@@ -27,3 +27,9 @@ def test_dataProcessor_TLCIndex(createDf):
 def test_dataProcessor_TFCIndex(createDf):
     processedDf = dataProcessor(createDf)
     assert 'Total Food Cost Index' in processedDf.columns, "Column not present"
+
+def test_createScatterPlot(createDf):
+    import os
+    processedDf = dataProcessor(createDf)
+    createScatterPlot(processedDf,'test/Test_Cost_Index_Analysis.png')
+    assert os.path.exists('test/Test_Cost_Index_Analysis.png'), "Matplotlib File Failed to generate"
