@@ -7,6 +7,7 @@ Make sure you are on the 'main' branch of the project. Other branches provided t
 
 ## Introduction
 This project aims to analyze the Cost of Living Index by Country data and plot some values into a scatter plot to see their correlation.
+PLEASE ENSURE TO CHECK THE GRAPH AND PROCESSED DATASET FILES GENERATED POST COMPLETION
 
 ## About the Dataset
 Dataset obtained from - https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024
@@ -40,7 +41,7 @@ This project requires the use of a Python virtual environment to manage dependen
 - Python 3.x installed on your system.
 - Git installed on your machine
 - Basic knowledge of command-line operations.
-
+```
 ## Cloning the Project
 - Open the Command Shell or Terminal on your machine and execute the following command
    ```sh
@@ -131,13 +132,14 @@ If the tests all show up as green -> all tests are running fine
   cd 510PreReq
   pytest -v
   ```
+  PLEASE ENSURE TO CHECK THE GRAPH AND PROCESSED DATASET FILES GENERATED POST COMPLETION
 
 
 ## Credits
-Part of this README.md file was generated using the Artificial Intelligence agent - ChatGPT
-Dataset obtained from - https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024
-Alternate Dataset Source - www.numbeo.com/cost-of-living/cpi_explained.jsp
-For more information on the formulas used for the dataset, please refer to: www.numbeo.com/common/motivation_and_methodology.jsp
-Data scraped from Numbeo: www.numbeo.com/cost-of-living/rankings_by_country.jsp
-All credits to Numbeo: www.numbeo.com/cost-of-living/
+- Part of this README.md file was generated using the Artificial Intelligence agent - ChatGPT
+- Dataset obtained from - https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024
+- Alternate Dataset Source - www.numbeo.com/cost-of-living/cpi_explained.jsp
+- For more information on the formulas used for the dataset, please refer to: www.numbeo.com/common/motivation_and_methodology.jsp
+- Data scraped from Numbeo: www.numbeo.com/cost-of-living/rankings_by_country.jsp
+- All credits to Numbeo: www.numbeo.com/cost-of-living/
 ```
