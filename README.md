@@ -1,5 +1,6 @@
 # 510PreReq
 This Repository is for the Pre-Requisite for the AIPI course 510, created by Vihaan Swapneshkumar Nama.
+Make sure you are on the 'main' branch of the project. Other branches provided to see commits and history.
 
 ```markdown
 # Living Cost, Food Cost and Purchasing Power Trend Analysis
