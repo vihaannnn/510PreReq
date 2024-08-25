@@ -136,10 +136,10 @@ If the tests all show up as green -> all tests are running fine
 
 
 ## Credits
-Part of this README.md file was generated using the Artificial Intelligence agent - ChatGPT
-Dataset obtained from - https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024
-Alternate Dataset Source - www.numbeo.com/cost-of-living/cpi_explained.jsp
-For more information on the formulas used for the dataset, please refer to: www.numbeo.com/common/motivation_and_methodology.jsp
-Data scraped from Numbeo: www.numbeo.com/cost-of-living/rankings_by_country.jsp
-All credits to Numbeo: www.numbeo.com/cost-of-living/
+- Part of this README.md file was generated using the Artificial Intelligence agent - ChatGPT
+- Dataset obtained from - https://www.kaggle.com/datasets/myrios/cost-of-living-index-by-country-by-number-2024
+- Alternate Dataset Source - www.numbeo.com/cost-of-living/cpi_explained.jsp
+- For more information on the formulas used for the dataset, please refer to: www.numbeo.com/common/motivation_and_methodology.jsp
+- Data scraped from Numbeo: www.numbeo.com/cost-of-living/rankings_by_country.jsp
+- All credits to Numbeo: www.numbeo.com/cost-of-living/
 ```
