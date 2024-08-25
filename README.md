@@ -132,6 +132,7 @@ If the tests all show up as green -> all tests are running fine
   cd 510PreReq
   pytest -v
   ```
+  PLEASE ENSURE TO CHECK THE GRAPH AND PROCESSED DATASET FILES GENERATED POST COMPLETION
 
 
 ## Credits
